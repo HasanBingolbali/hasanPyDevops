@@ -31,7 +31,7 @@ app.include_router(
 
 @app.get("/")
 async def root():
-    return {"message": "Hello Bigger Applications, checkk!"}
+    return {"message": "Hello Bigger Applications, checkkk!"}
 
 @app.get("/ping")
 async def root():
